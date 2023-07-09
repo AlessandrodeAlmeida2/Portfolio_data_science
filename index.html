@@ -1,0 +1,453 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Alessandro de Almeida | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="meuPortifolio" content="AlessandrodeAlmeida, Developer, Javascript, python, data science" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Alessandro de Almeida | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="https://www.linkedin.com/in/valter-alessandro-de-alameida-d-alvia-agostini-b140a51a7/" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Alessandro de Almeida | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Poject template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="img/capa.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Alessandro de Almeida | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="img/capa.jpg"
+    />
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Olá, meu nome é <span class="text-color-main name">Valter Alessandro de Almeida D'Alvia Agostini</span>
+          <br />
+          Eu sou o cientista de dados que você precisa.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="contato.html">Entre em contato</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Sobre</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <!--<img
+              class="img-fluid"
+              src="img/myp.JPG"
+              alt="Profile Image"
+            />-->
+            <iframe src="https://www.veed.io/embed/f8590ea9-bb4b-459d-887c-8f81bde01811" class="img-fluid" width="80%" height="100%" frameborder="0" title="Portifolio" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              <br>
+              
+              Olá, Meu nome é Alessandro e sou estudante de ciência de dados na Univesp e desenvolvedor front-end e back-end baseado no Brasil. Também sou membro ativo da comunidade brasileira GTC – Coursera, onde contribuo criando legendas para videoaulas. Tenho paixão por ciência de dados e estou ansioso para colocar em prática tudo o que aprendi até agora.
+              <br>           
+            </p>
+              <br>
+              
+            <span class="about-wrapper__cta">
+              <a href="img/Cubic3.pdf" class="cta-btn cta-btn--resume">Currículo</a>
+            </span>
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projetos</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Projeto Salifort Motors</h3>
+              <p class="project-wrapper__text-info">
+                Esse modelo de floresta aleatória ajuda a prever se um funcionário deixará a empresa e identificar quais fatores são mais influentes. Esses insights podem ajudar o RH a tomar decisões para melhorar a retenção de funcionários.
+
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAlessandrodeAlmeida2%2FGoogle_Advanced_Data_Analytics%2Fmain%2FSalifort_Motors%2FCourse%25207%2520executive%2520summary.pptx&wdOrigin=BROWSELINK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Sumário Executivo</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/blob/main/Salifort_Motors/Course%207%20Salifort%20Motors%20project%20lab.ipynb" target="_blank" class="cta-btn text-color-main"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Salifort_Motors" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/Salifort.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Projeto Tik Tok</h3>
+              <p class="project-wrapper__text-info">
+                Os vídeos do TikTok recebem um grande número de relatos de usuários por muitos motivos diferentes. Nem todos os vídeos relatados podem passar por revisão por um moderador humano. Vídeos que fazem reivindicações (em vez de opiniões) são muito mais propensos a conter conteúdo que viola os termos de serviço da plataforma. O TikTok busca uma maneira de identificar vídeos que fazem alegações para priorizá-los para revisão.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Tik_Tok/Executive_summary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Sumário Executivo</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Tik_Tok"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/blob/main/Tik_Tok/Course%206%20TikTok%20project%20lab.ipynb" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/tik_tok.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Clone do Spotify</h3>
+              <p class="project-wrapper__text-info">
+                Clone do antigo site do Spotify feito com HTMI5 e Bootstrap
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://alessandrodealmeida2.github.io/spotify/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/spotify" target="_blank" class="cta-btn text-color-main"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://alessandrodealmeida2.github.io/spotify/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/spotfy.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Django</h3>
+              <p class="project-wrapper__text-info">
+                Amostra de um site de vendas feito com Django
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AlessandrodeAlmeida2/Django"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/Django" target="_blank" class="cta-btn text-color-main"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/AlessandrodeAlmeida2/Django" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/django.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Projeto Automatidata</h3>
+              <p class="project-wrapper__text-info">
+                A Comissão de Táxi e Limusine da Cidade de Nova York busca uma maneira de utilizar os dados coletados na área da cidade de Nova York para prever o valor da tarifa para corridas de táxi. Usei duas arquiteturas de modelagem diferentes e comparei seus resultados. Infelizmente, nenhuma das duas abordagens apresentou previsões fortes.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Automatidata/Executive_summary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Sumário Executivo</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Automatidata" target="_blank" class="cta-btn text-color-main"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/blob/main/Automatidata/Course%206%20Automatidata%20project%20lab.ipynb" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/automatidata.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Projeto Wase</h3>
+              <p class="project-wrapper__text-info">
+                Para obter um modelo com maior poder preditivo, desenvolvi dois modelos diferentes para comparar os resultados: random forest e XGBoost.
+Os dados foram divididos em conjuntos de treinamento, validação e teste. Dividir os dados em três maneiras significa que há menos dados disponíveis para treinar o modelo do que dividir apenas duas maneiras. No entanto, realizar a seleção de modelo em um conjunto de validação separado permite testar o modelo campeão por si só no conjunto de teste, o que fornece uma estimativa melhor do desempenho futuro do que dividir os dados de duas maneiras e selecionar um modelo campeão por desempenho nos dados de teste.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Wase/Executive_summary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Sumário Executivo</a
+                >
+                <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/tree/main/Wase" target="_blank" class="cta-btn text-color-main"
+                  >Código Fonte</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/AlessandrodeAlmeida2/Google_Advanced_Data_Analytics/blob/main/Wase/Course%206%20Waze%20project%20lab.ipynb" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="img/wase.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">(19) 993000487</p>
+          <a href="https://api.whatsapp.com/send?phone=5519993000487&text=Olá!"
+              target="_blank"
+              class="cta-btn cta-btn--resume">Entre em contato
+              <svg enable-background="new 0 0 512 512" width="5%" height="5%" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#4CAF50"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
+          </a> 
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/Ale_de_Almeida"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/alessandrodealmeida55/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a
+            href="https://codepen.io/AlessandrodeAlmeida2"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/valter-alessandro-de-alameida-d-alvia-agostini-b140a51a7/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/AlessandrodeAlmeida2"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
