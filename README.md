@@ -51,7 +51,7 @@ Press <kbd>F1</kbd> and Search for _Open Settings(JSON)_ and paste the below cod
 
 ## How To Use 🔧
 
-In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
+In VSCode, open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
 
 ```bash
 # Clone this repository
